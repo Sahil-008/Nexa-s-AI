@@ -13,7 +13,7 @@ const clearHistoryBtn = document.querySelector("#clear-history-btn");
 const suggestionItems = document.querySelectorAll(".suggestions-item");
 
 // API 
-const API_KEY = "AIzaSyDxXBNpOPbnlzwCSVEsLFe98T79GU-CcUg";
+const API_KEY = "AIzaSyD....";//use  your API
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
 
 let controller, typingInterval;
